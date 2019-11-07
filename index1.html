@@ -1,0 +1,57 @@
+<html>
+   
+   <head>
+      <title>Login Page</title>
+      
+
+
+      <style type = "text/css">
+         body {
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:16px;
+            background-image: url("../img/universe.jpg");
+            background-repeat: no-repeat;
+	    background-size: cover;
+
+	 }
+	 label{
+            font-weight:bold;
+            width:100px;
+            font-size:16px;
+            color:white;
+         }
+         .box {
+            border: white 3px;
+         }
+      </style>
+      
+   </head>
+   <body>
+
+      <div align = "center">
+         <div style = "width:300px; border: solid 5px #333333; " align = "center">
+            <div style = "background-color:#33333; color:#FFFFFF; padding:3px;"><b>Login</b></div>
+				
+            <div style = "margin:30px">
+               
+               <form action = "login.php" method = "post">
+                  <label>UserName  :</label><input type = "text" name = "username" class = "box"/><br /><br />
+                  <label>Password  :</label><input type = "password" name = "pass" class = "box" /><br/><br />
+                  <input type = "submit" value = " Submit "/><br />
+               </form>
+
+                <form method="post" action="register.php">
+				<label for="username">Username</label>
+				<input type="username" id="username" name="username" required>
+				<label for="password"><br><br>Password</label> 
+				<input type="password" id="password" name="pass" required>
+				<br><br>
+				<input type="submit" class="button" value="Register">
+				
+		</form> 
+
+   </body>
+
+</html>
+
+

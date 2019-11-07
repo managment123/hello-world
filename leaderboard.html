@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+	<title>LeaderBoard page</title>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+body{
+background-image:url("../img/blue1.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+
+
+}
+
+.container {
+	width: 600px;
+	height: auto;
+}
+
+.row {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #AFAFAF;
+}
+
+.name {
+	position: relative;
+	display: inline-block;
+	width: 75%;
+	line-height: 45px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+ 
+.jeopardy-table{
+    border-collapse: collapse;
+    margin:25px 0;
+    font-size:0.9em;
+    min-width:600px;
+    min-height:450px;
+    margin: 0px auto;
+    color: solid black;
+}
+
+.jeopardy-table thead tr {
+       background color : black;
+       color: white;
+       text-align: center;
+       font-weight: bold;
+      
+  
+}
+
+.jeopardy-table th,
+.jeopardy-table td {
+   padding: 12px 15px;
+   font-weight: bold;
+
+}
+.jeopardy-table tbody tr
+{
+border: 1px solid black;
+background-color:blue;
+}
+
+.jeopardy-table tbody tr td,
+.jeopardy-table thead tr th,
+.jeopardy-table thead{
+
+border-left: 1px solid black;
+border-right:1px solid black;
+
+}
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="inactive"><a href="../loginsuccess.html">Home</a></li>
+        <li class="inactive"><a href="../profile.html">Profile Card</a></li>
+        <li class="active"><a href="../leaderboard.html">Jeopardy Game Screen</a></li>
+        <li><a href="#">Match Making</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../index1.html"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+
+
+
+
+
+
+
+
+</br><br>
+
+
+
+
+
+ <table class="jeopardy-table">
+  <thead>
+  <tbody>
+    <tr>
+      <th scope="col">HTML</th>
+      <th scope="col">Python</th>
+      <th scope="col">PHP</th>
+      <th scope="col">Java</th>
+      <th scope="col">JavaScript</th>
+    </tr>
+  </thead>
+    <tr>
+      <th scope="row">$50</th>
+      <td>$50</td>
+      <td>$50</td>
+      <td>$50</td>
+      <td>$50</td>
+    </tr>
+    <tr>
+      <th scope="row">$100</th>
+      <td>$100</td>
+      <td>$100</td>
+      <td>$100</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <th scope="row">$150 </th>
+      <td>$150</td>
+      <td>$150</td>
+      <td>$150</td>
+      <td>$150</td>
+    </tr> 
+    <tr>
+      <th scope="row">$500 </th>
+      <td>$$500</td>
+      <td>$500</td>
+      <td>$500</td>
+      <td>$500</td>
+    </tr>
+    <tr>
+      <th scope="row">$$800 </th>
+      <td>$800</td>
+      <td>$800</td>
+      <td>$800</td>
+      <td>$800</td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+   
+
+
